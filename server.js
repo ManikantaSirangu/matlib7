@@ -19,7 +19,7 @@ app.get("/",function(req,res){
 
 app.get('/output', (req, res) => {
   // res.sendFile(__dirname + '/output');
-    res.render("output");
+    res.render("output",{madLib:madLib});
 });
 
 // Handle form submission
@@ -30,7 +30,7 @@ app.post('/output', (req, res) => {
   const madLib = `Once upon a time, in a ${adjective} land, there were ${noun}s who loved to ${verb} ${adverb} around the ${place}.`;
 
   // Send back the filled Mad Lib
-    res.render("output");
+    res.render("output",{madLib:madLib});
   // res.send(madLib);
 });
 

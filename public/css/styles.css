@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: lightblue;
+}
+
+form {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 200px; /* Adjust the width as needed */
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+
+.button 
+{
+    
+    transition: 1s;
+}
+
+.button:hover {
+    background-color: aqua;
+    color: black;
+    letter-spacing: 0.1rem;
+    
+}

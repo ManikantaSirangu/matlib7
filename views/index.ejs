@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mad Lib</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <form action="/output" method="post">
+    <label for="noun">Noun:</label>
+    <input type="text" name="noun" required><br>
+
+    <label for="verb">Verb:</label>
+    <input type="text" name="verb" required><br>
+
+    <label for="adjective">Adjective:</label>
+    <input type="text" name="adjective" required><br>
+
+    <label for="adverb">Adverb:</label>
+    <input type="text" name="adverb" required><br>
+
+    <label for="place">Place:</label>
+    <input type="text" name="place" required><br>
+
+    <input class="button" type="submit" value="Generate Mad Lib">
+  </form>
+</body>
+</html>

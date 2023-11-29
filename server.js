@@ -18,7 +18,8 @@ app.get("/",function(req,res){
 
 
 app.get('/output', (req, res) => {
-  res.sendFile(__dirname + '/output');
+  // res.sendFile(__dirname + '/output');
+    res.render("output");
 });
 
 // Handle form submission

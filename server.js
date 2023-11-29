@@ -30,7 +30,8 @@ app.post('/output', (req, res) => {
   const madLib = `Once upon a time, in a ${adjective} land, there were ${noun}s who loved to ${verb} ${adverb} around the ${place}.`;
 
   // Send back the filled Mad Lib
-  res.send(madLib);
+    res.render("output");
+  // res.send(madLib);
 });
 
 // Start the server
